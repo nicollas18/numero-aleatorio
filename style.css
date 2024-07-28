@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: black;
+    font-family: "Lato", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.container > h1 {
+    margin-bottom: 20px;
+    font-weight: normal;
+    font-size: 3em;
+    
+}
+
+input[type=number] {
+    border: 1px solid black;
+    outline: none;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    background-color: rgba(238, 238, 238, 0.753);
+}
+
+input[type=number]:focus {
+    background-color: white;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.container > button {
+    border: none;
+    background-color: rgb(226, 76, 76);
+    font-size: 1.5em;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+}
+
+.container > button:hover {
+    background-color: rgb(155, 52, 52);
+    cursor: pointer;
+    color: white;
+}
+
+.container > p {
+    height: 1.5em;
+    text-align: center;
+    font-size: 1.5em;
+}
