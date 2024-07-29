@@ -20,5 +20,9 @@ function aleatorio() {
 }
 
 function getRandomNumber(min, max) {
-    return Math.floor(Math.random() * (max - min + 1));
+    let Min = Number(min);
+    let Max = Number(max);
+
+    return Math.floor(Math.random() * (Max - Min + 1)) + Min;
+    
 }
